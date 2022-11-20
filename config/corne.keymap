@@ -12,44 +12,80 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+                layer_0 {
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+                        &kc TAB   &kc Q     &kc W     &kc E     &kc R     &kc T     &kc Y     &kc U     &kc I     &kc O     &kc P     &kc BSPC 
+                        &kc LCTL  &kc A     &kc S     &kc D     &kc F     &kc G     &kc H     &kc J     &kc K     &kc L     ?         &kc ENT  
+                        &kc LSFT  &kc Z     &kc X     &kc C     &kc V     &kc B     &kc N     &kc M     &kp COMMA &kp DOT   &kp SLASH &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &mo 1     &mo 3     &kp SPC   &mo 2     &none     &none     &none     &none    
                         >;
                 };
-                lower_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+                layer_1 {
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+                        &kc TILDE &kp EXCL  &kp AT    &kp HASH  &kp DLR   &kp PERC  &kc CIRC  &kp 7     &kp 8     &kp 9     &none     &none    
+                        &none     &kp DQUO  &kp AMPR  &kp PAST  &kc UNDS  &none     &kp PLUS  &kp 4     &kp 5     &kp 6     &kp QUOT  &kc PIPE 
+                        &none     &none     &none     &none     &none     &kp DOT   &kp 0     &kp 1     &kp 2     &kp 3     &kp SLASH &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &none     &none     &none     &mo 5     &none     &none     &none     &none    
                         >;
                 };
-
-                raise_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
+                layer_2 {
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                        &kc GRV   &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &kc BSPC 
+                        &none     &kc LBRC  &kc RBRC  &kp LPRN  &kp RPRN  &none     &none     &kp MINUS &kp EQL   &none     &none     &kc BSLS 
+                        &none     &kp LABK  &kp RABK  &kc LCBR  &kc RCBR  &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &mo 4     &none     &none     &none     &none     &none     &none     &none    
+                        >;
+                };
+                layer_3 {
+                        bindings = <
+                        &kc ESC   &none     &none     &none     &none     &none     &none     &kc PGUP  &kc UP    &kc PGDN  &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &kc LEFT  &kc DOWN  &kc RIGHT &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &kc HOME  &none     &kc END   &none     &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &mo 1     &none     &none     &none     &none     &none     &none     &none    
+                        >;
+                };
+                layer_4 {
+                        bindings = <
+                        &none     &kc F1    &kc F2    &kc F3    &kc F4    &kc F5    &kc F6    &kc F7    &kc F8    &kc F9    &kc F10   &none    
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        >;
+                };
+                layer_5 {
+                        bindings = <
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        >;
+                };
+                layer_6 {
+                        bindings = <
+                        &none     &none        &none        &none        &none        &none      &none     &none     &none     &none     &none     &none    
+                        &none     &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR &none     &none     &none     &none     &none     &none    
+                        &none     &none        &none        &none        &none        &none      &none     &none     &none     &none     &none     &none    
+                        &none     &none        &kc LOPT     &kc LCMD     &none        &none      &none     &none     &none     &none     &none     &none    
+                        >;
+                };
+                layer_7 {
+                        bindings = <
+                        &kc TAB   &kc Q     &kc W     &kc F     &kc P     &kc G     &kc J     &kc L     &kc U     &kc Y     &none     &kc BSPC 
+                        &kc LCTL  &kc A     &kc R     &kc S     &kc T     &kc D     &kc H     &kc N     &kc E     &kc I     &kc O     &kc ENT  
+                        &kc LSFT  &kc Z     &kc X     &kc C     &kc V     &kc B     &kc K     &kc M     &kp COMMA &kp DOT   &kp SLASH &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &mo 1     &mo 3     &kp SPC   &mo 2     &none     &none     &none     &none    
+                        >;
+                };
+                layer_8 {
+                        bindings = <
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LOPT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        >;
+                };
+                layer_9 {
+                        bindings = <
                         >;
                 };
         };
