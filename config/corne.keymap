@@ -22,8 +22,8 @@
                 };
                 layer_1 {
                         bindings = <
-                        &kc TILDE &kp EXCL  &kp AT    &kp HASH  &kp DLR   &kp PERC  &kc CIRC  &kp 7     &kp 8     &kp 9     &none     &none    
-                        &none     &kp DQUO  &kp AMPR  &kp PAST  &kc UNDS  &none     &kp PLUS  &kp 4     &kp 5     &kp 6     &kp QUOT  &kc PIPE 
+                        &kc TILDE &kp EXCL  &kp AT    &kp HASH  &kp DOLLAR   &kp PERCENT  &kc CARET  &kp 7     &kp 8     &kp 9     &none     &none    
+                        &none     &kp DQT  &kp AMPERSAND  &kp ASTERISK  &kc UNDERSCORE  &none     &kp PLUS  &kp 4     &kp 5     &kp 6     &kp QUOT  &kc PIPE 
                         &none     &none     &none     &none     &none     &kp DOT   &kp 0     &kp 1     &kp 2     &kp 3     &kp SLASH &none    
                         &none     &none     &kc LALT  &kc LCMD  &none     &none     &none     &mo 5     &none     &none     &none     &none    
                         >;
