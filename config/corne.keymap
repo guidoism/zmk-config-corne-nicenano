@@ -17,7 +17,7 @@
                         &kc TAB   &kc Q     &kc W     &kc E     &kc R     &kc T     &kc Y     &kc U     &kc I     &kc O     &kc P     &kc BSPC 
                         &kc LCTL  &kc A     &kc S     &kc D     &kc F     &kc G     &kc H     &kc J     &kc K     &kc L     &none     &kc RET  
                         &kc LSFT  &kc Z     &kc X     &kc C     &kc V     &kc B     &kc N     &kc M     &kp COMMA &kp DOT   &kp SLASH &none    
-                        &none     &none     &kc LOPT  &kc LCMD  &mo 1     &mo 3     &kp SPACE   &mo 2     &none     &none     &none     &none    
+                        &none     &none     &kc LALT  &kc LCMD  &mo 1     &mo 3     &kp SPACE &mo 2     &none     &none     &none     &none    
                         >;
                 };
                 layer_1 {
@@ -25,7 +25,7 @@
                         &kc TILDE &kp EXCL  &kp AT    &kp HASH  &kp DLR   &kp PERC  &kc CIRC  &kp 7     &kp 8     &kp 9     &none     &none    
                         &none     &kp DQUO  &kp AMPR  &kp PAST  &kc UNDS  &none     &kp PLUS  &kp 4     &kp 5     &kp 6     &kp QUOT  &kc PIPE 
                         &none     &none     &none     &none     &none     &kp DOT   &kp 0     &kp 1     &kp 2     &kp 3     &kp SLASH &none    
-                        &none     &none     &kc LOPT  &kc LCMD  &none     &none     &none     &mo 5     &none     &none     &none     &none    
+                        &none     &none     &kc LALT  &kc LCMD  &none     &none     &none     &mo 5     &none     &none     &none     &none    
                         >;
                 };
                 layer_2 {
@@ -33,7 +33,7 @@
                         &kc GRV   &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &kc BSPC 
                         &none     &kc LBRC  &kc RBRC  &kp LPRN  &kp RPRN  &none     &none     &kp MINUS &kp EQL   &none     &none     &kc BSLS 
                         &none     &kp LABK  &kp RABK  &kc LCBR  &kc RCBR  &none     &none     &none     &none     &none     &none     &none    
-                        &none     &none     &kc LOPT  &kc LCMD  &mo 4     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LALT  &kc LCMD  &mo 4     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_3 {
@@ -41,7 +41,7 @@
                         &kc ESC   &none     &none     &none     &none     &none     &none     &kc PGUP  &kc UP    &kc PGDN  &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &kc LEFT  &kc DOWN  &kc RIGHT &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &kc HOME  &none     &kc END   &none     &none    
-                        &none     &none     &kc LOPT  &kc LCMD  &mo 1     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LALT  &kc LCMD  &mo 1     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_4 {
@@ -49,7 +49,7 @@
                         &none     &kc F1    &kc F2    &kc F3    &kc F4    &kc F5    &kc F6    &kc F7    &kc F8    &kc F9    &kc F10   &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
-                        &none     &none     &kc LOPT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LALT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_5 {
@@ -57,7 +57,7 @@
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
-                        &none     &none     &kc LOPT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kc LALT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_6 {
@@ -65,7 +65,7 @@
                         &none     &none        &none        &none        &none        &none      &none     &none     &none     &none     &none     &none    
                         &none     &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR &none     &none     &none     &none     &none     &none    
                         &none     &none        &none        &none        &none        &none      &none     &none     &none     &none     &none     &none    
-                        &none     &none        &kc LOPT     &kc LCMD     &none        &none      &none     &none     &none     &none     &none     &none    
+                        &none     &none        &kc LALT     &kc LCMD     &none        &none      &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_7 {
@@ -73,7 +73,7 @@
                         &kc TAB   &kc Q     &kc W     &kc F     &kc P     &kc G     &kc J     &kc L     &kc U     &kc Y     &none     &kc BSPC 
                         &kc LCTL  &kc A     &kc R     &kc S     &kc T     &kc D     &kc H     &kc N     &kc E     &kc I     &kc O     &kc ENT  
                         &kc LSFT  &kc Z     &kc X     &kc C     &kc V     &kc B     &kc K     &kc M     &kp COMMA &kp DOT   &kp SLASH &none    
-                        &none     &none     &kc LOPT  &kc LCMD  &mo 1     &mo 3     &kp SPACE   &mo 2     &none     &none     &none     &none    
+                        &none     &none     &kc LALT  &kc LCMD  &mo 1     &mo 3     &kp SPACE   &mo 2     &none     &none     &none     &none    
                         >;
                 };
                 layer_8 {
