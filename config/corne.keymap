@@ -30,8 +30,8 @@
                 };
                 layer_2 {
                         bindings = <
-                        &kc GRV   &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &kc BSPC 
-                        &none     &kc LBRC  &kc RBRC  &kp LPRN  &kp RPRN  &none     &none     &kp MINUS &kp EQL   &none     &none     &kc BSLS 
+                        &kc GRAVE &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &kc BSPC 
+                        &none     &kc LBRC  &kc RBRC  &kp LPRN  &kp RPRN  &none     &none     &kp MINUS &kp EQUAL &none     &none     &kc BACKSLASH
                         &none     &kp LABK  &kp RABK  &kc LCBR  &kc RCBR  &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &kc LALT  &kc LCMD  &mo 4     &none     &none     &none     &none     &none     &none     &none    
                         >;
