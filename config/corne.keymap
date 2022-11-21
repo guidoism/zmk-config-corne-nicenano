@@ -14,42 +14,42 @@
 
                 layer_0 {
                         bindings = <
-                        &kc TAB   &kc Q     &kc W     &kc E     &kc R     &kc T     &kc Y     &kc U     &kc I     &kc O     &kc P     &kc BSPC 
-                        &kc LCTL  &kc A     &kc S     &kc D     &kc F     &kc G     &kc H     &kc J     &kc K     &kc L     &none     &kc RET  
-                        &kc LSFT  &kc Z     &kc X     &kc C     &kc V     &kc B     &kc N     &kc M     &kp COMMA &kp DOT   &kp SLASH &none    
-                        &none     &none     &kc LALT  &kc LCMD  &mo 1     &mo 3     &kp SPACE &mo 2     &none     &none     &none     &none    
+                        &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BSPC 
+                        &kp LCTL  &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &none     &kp RET  
+                        &kp LSFT  &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp SLASH &none    
+                        &none     &none     &kp LALT  &kp LCMD  &mo 1     &mo 3     &kp SPACE &mo 2     &none     &none     &none     &none    
                         >;
                 };
                 layer_1 {
                         bindings = <
-                        &kc TILDE &kp EXCL  &kp AT         &kp HASH      &kp DOLLAR      &kp PERCENT &kc CARET &kp 7     &kp 8     &kp 9     &none     &none    
-                        &none     &kp DQT   &kp AMPERSAND  &kp ASTERISK  &kc UNDERSCORE  &none       &kp PLUS  &kp 4     &kp 5     &kp 6     &kp QUOT  &kc PIPE 
+                        &kp TILDE &kp EXCL  &kp AT         &kp HASH      &kp DOLLAR      &kp PERCENT &kp CARET &kp 7     &kp 8     &kp 9     &none     &none    
+                        &none     &kp DQT   &kp AMPERSAND  &kp ASTERISK  &kp UNDERSCORE  &none       &kp PLUS  &kp 4     &kp 5     &kp 6     &kp QUOT  &kp PIPE 
                         &none     &none     &none          &none         &none           &kp DOT     &kp 0     &kp 1     &kp 2     &kp 3     &kp SLASH &none    
-                        &none     &none     &kc LALT       &kc LCMD      &none           &none       &none     &mo 5     &none     &none     &none     &none    
+                        &none     &none     &kp LALT       &kp LCMD      &none           &none       &none     &mo 5     &none     &none     &none     &none    
                         >;
                 };
                 layer_2 {
                         bindings = <
-                        &kc GRAVE &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &kc BSPC 
-                        &none     &kc LBRC  &kc RBRC  &kp LPRN  &kp RPRN  &none     &none     &kp MINUS &kp EQUAL &none     &none     &kc BACKSLASH
-                        &none     &kp LT    &kp GT    &kc LBRC  &kc RBRC  &none     &none     &none     &none     &none     &none     &none    
-                        &none     &none     &kc LALT  &kc LCMD  &mo 4     &none     &none     &none     &none     &none     &none     &none    
+                        &kp GRAVE &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &kp BSPC 
+                        &none     &kp LBRC  &kp RBRC  &kp LPRN  &kp RPRN  &none     &none     &kp MINUS &kp EQUAL &none     &none     &kp BACKSLASH
+                        &none     &kp LT    &kp GT    &kp LBRC  &kp RBRC  &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kp LALT  &kp LCMD  &mo 4     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_3 {
                         bindings = <
-                        &kc ESC   &none     &none     &none     &none     &none     &none     &kc PG_UP &kc UP    &kc PG_DN &none     &none    
-                        &none     &none     &none     &none     &none     &none     &none     &kc LEFT  &kc DOWN  &kc RIGHT &none     &none    
-                        &none     &none     &none     &none     &none     &none     &none     &kc HOME  &none     &kc END   &none     &none    
-                        &none     &none     &kc LALT  &kc LCMD  &mo 1     &none     &none     &none     &none     &none     &none     &none    
+                        &kp ESC   &none     &none     &none     &none     &none     &none     &kp PG_UP &kp UP    &kp PG_DN &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &kp LEFT  &kp DOWN  &kp RIGHT &none     &none    
+                        &none     &none     &none     &none     &none     &none     &none     &kp HOME  &none     &kp END   &none     &none    
+                        &none     &none     &kp LALT  &kp LCMD  &mo 1     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_4 {
                         bindings = <
-                        &none     &kc F1    &kc F2    &kc F3    &kc F4    &kc F5    &kc F6    &kc F7    &kc F8    &kc F9    &kc F10   &none    
+                        &none     &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
-                        &none     &none     &kc LALT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kp LALT  &kp LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_5 {
@@ -57,7 +57,7 @@
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
-                        &none     &none     &kc LALT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kp LALT  &kp LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_6 {
@@ -65,15 +65,15 @@
                         &none     &none        &none        &none        &none        &none      &none     &none     &none     &none     &none     &none    
                         &none     &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR &none     &none     &none     &none     &none     &none    
                         &none     &none        &none        &none        &none        &none      &none     &none     &none     &none     &none     &none    
-                        &none     &none        &kc LALT     &kc LCMD     &none        &none      &none     &none     &none     &none     &none     &none    
+                        &none     &none        &kp LALT     &kp LCMD     &none        &none      &none     &none     &none     &none     &none     &none    
                         >;
                 };
                 layer_7 {
                         bindings = <
-                        &kc TAB   &kc Q     &kc W     &kc F     &kc P     &kc G     &kc J     &kc L     &kc U     &kc Y     &none     &kc BSPC 
-                        &kc LCTL  &kc A     &kc R     &kc S     &kc T     &kc D     &kc H     &kc N     &kc E     &kc I     &kc O     &kc RET
-                        &kc LSFT  &kc Z     &kc X     &kc C     &kc V     &kc B     &kc K     &kc M     &kp COMMA &kp DOT   &kp SLASH &none    
-                        &none     &none     &kc LALT  &kc LCMD  &mo 1     &mo 3     &kp SPACE   &mo 2     &none     &none     &none     &none    
+                        &kp TAB   &kp Q     &kp W     &kp F     &kp P     &kp G     &kp J     &kp L     &kp U     &kp Y     &none     &kp BSPC 
+                        &kp LCTL  &kp A     &kp R     &kp S     &kp T     &kp D     &kp H     &kp N     &kp E     &kp I     &kp O     &kp RET
+                        &kp LSFT  &kp Z     &kp X     &kp C     &kp V     &kp B     &kp K     &kp M     &kp COMMA &kp DOT   &kp SLASH &none    
+                        &none     &none     &kp LALT  &kp LCMD  &mo 1     &mo 3     &kp SPACE &mo 2     &none     &none     &none     &none    
                         >;
                 };
                 layer_8 {
@@ -81,7 +81,7 @@
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
                         &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none    
-                        &none     &none     &kc LALT  &kc LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
+                        &none     &none     &kp LALT  &kp LCMD  &none     &none     &none     &none     &none     &none     &none     &none    
                         >;
                 };
         };
